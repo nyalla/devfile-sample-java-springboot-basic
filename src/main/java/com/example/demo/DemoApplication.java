@@ -24,4 +24,9 @@ public class DemoApplication {
         return "Hello name";
     }
 
+    @RequestMapping("/newname")
+    String homeNewName() {
+        return "Hello newname";
+    }
+
 }
