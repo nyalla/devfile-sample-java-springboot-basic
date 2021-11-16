@@ -29,4 +29,9 @@ public class DemoApplication {
         return "Hello newname new change";
     }
 
+    @RequestMapping("/webhook")
+    String webhook() {
+        return "Hello webhook new change";
+    }
+
 }
