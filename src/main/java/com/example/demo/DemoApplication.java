@@ -26,7 +26,7 @@ public class DemoApplication {
 
     @RequestMapping("/newname")
     String homeNewName() {
-        return "Hello newname";
+        return "Hello newname new change";
     }
 
 }
